@@ -48,7 +48,10 @@ body {
 
 .glow-on-hover:hover:before {
     opacity: 1;
-    
+    width: calc(100% + var(--btn-cta-rainbow-width) * 2);
+    height: calc(100% + var(--btn-cta-rainbow-width) * 2);
+    top: var(--btn-cta-rainbow-width);
+    left: var(--btn-cta-rainbow-width);
 }
 
 .glow-on-hover:after {
