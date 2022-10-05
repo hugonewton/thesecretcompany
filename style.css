@@ -34,7 +34,7 @@ body {
     height: calc(100% + var(--btn-cta-rainbow-width));
     animation: glowing 20s linear infinite;
     opacity: .3;
-    transition: opacity .3s ease-in-out;
+    transition: all .3s ease-in-out;
     border-radius: 10px;
 }
 
