@@ -43,9 +43,9 @@ body {
     color: #000
 }
 
-.glow-on-hover:active:after {
+/* .glow-on-hover:active:after {
     background: transparent;
-}
+} */
 
 .glow-on-hover:hover:before {
     opacity: 1;
