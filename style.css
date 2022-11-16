@@ -1,5 +1,5 @@
 :root {
-    --btn-cta-rainbow-width: 4px;
+    --btn-cta-rainbow-width: 7px;
 }
 
 
@@ -23,7 +23,7 @@
     left: calc(var(--btn-cta-rainbow-width) / -2);
     background-size: 400%;
     z-index: -1;
-    filter: blur(5px);
+    filter: blur(7px);
     width: calc(100% + var(--btn-cta-rainbow-width));
     height: calc(100% + var(--btn-cta-rainbow-width));
     animation: glowing 20s linear infinite;
@@ -58,6 +58,10 @@
     left: 0;
     top: 0;
     border-radius: 3px;
+}
+
+.glow-on-hover:hover:after {
+    background: #000;
 }
 
 @keyframes glowing {
