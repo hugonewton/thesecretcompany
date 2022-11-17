@@ -97,3 +97,10 @@
 .play-btn {
     filter: drop-shadow(0px 0px 10px #000);
 }
+
+@media screen and (max-width: 767px) {
+    .track-record-video-embed {
+        width: 100%;
+        min-height: 500px;
+    }
+}
