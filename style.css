@@ -70,3 +70,12 @@
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
 }
+
+
+
+/* H2 TEXT SHADOW */
+
+.h2-main {
+    text-shadow: 0px 4px 100px rgba(243, 223, 162, 0.7);
+}
+
