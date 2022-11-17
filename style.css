@@ -87,7 +87,7 @@
 /* YT EMBED */
 .track-record-video-embed {
     height: 100%;
-    width: calc( 50vh / (16/9));
+    /* width: calc( 50vh / (16/9)); */
 }
 
 /* .track-record-media-grid {
