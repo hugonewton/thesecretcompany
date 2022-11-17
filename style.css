@@ -90,3 +90,6 @@
     width: calc( 50vh / (16/9));
 }
 
+.track-record-media-grid {
+    max-width: calc( (50vh / (16/9)) * 2 + 1rem);
+}
