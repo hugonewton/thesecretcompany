@@ -104,3 +104,9 @@
         min-height: 500px;
     }
 }
+
+
+
+.staff-age-p {
+    writing-mode: vertical-lr;
+}
