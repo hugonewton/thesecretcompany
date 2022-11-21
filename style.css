@@ -110,3 +110,8 @@
 .staff-age-p {
     writing-mode: vertical-lr;
 }
+
+
+.section-separator {
+ height: calc((100vw / 7.753) + (100vw / 7.304) + 1px);   
+}
