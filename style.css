@@ -87,6 +87,7 @@
 /* YT EMBED */
 .track-record-video-embed {
     height: 100%;
+    width: 100%;
     /* width: calc( 50vh / (16/9)); */
 }
 
@@ -126,3 +127,8 @@
 .video-our-take {
     aspect-ratio: 9/16;
 }
+
+.w-embed:before, .w-embed:after {
+    content: none;
+}
+
