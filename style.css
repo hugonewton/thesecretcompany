@@ -114,7 +114,7 @@
 
 @media (min-width: 900px) {
     .section-separator {
-        height: calc((100vw / 7.753) + (100vw / 7.304) - 10vw);   
+        height: calc((100vw / 7.753) + (100vw / 7.304) - 9vw);   
        }
        
        .separator-img {
