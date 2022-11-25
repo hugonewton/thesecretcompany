@@ -86,6 +86,14 @@
         border-radius: 1000px;
 }
 
+.glow-only:hover:before {
+    opacity: 1;
+    width: calc(100% + var(--btn-cta-rainbow-width) * 2);
+    height: calc(100% + var(--btn-cta-rainbow-width) * 2);
+    top: calc(var(--btn-cta-rainbow-width) * -1);
+    left: calc(var(--btn-cta-rainbow-width) * -1);
+}
+
 .glow-only:after {
     z-index: -1;
     content: '';
@@ -96,16 +104,11 @@
     left: 0;
     top: 0;
     border-radius: 1000px;
-    transition: all 200ms ease-in-out;
+    transition: all 20
+    0ms ease-in-out;
 }
+
 /* Hello */
-.glow-only:hover:before {
-    opacity: 1;
-    width: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    height: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    top: calc(var(--btn-cta-rainbow-width) * -1);
-    left: calc(var(--btn-cta-rainbow-width) * -1);
-}
 
 
 
