@@ -99,7 +99,7 @@
     transition: all 200ms ease-in-out;
 }
 
-.glow-ONLY:hover:before {
+.glow-only:hover:before {
     opacity: 1;
     width: calc(100% + var(--btn-cta-rainbow-width) * 2);
     height: calc(100% + var(--btn-cta-rainbow-width) * 2);
