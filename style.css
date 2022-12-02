@@ -183,6 +183,7 @@
     max-width: 100%;
 } */
 
-.nav-gift-item img {
+.nav-gift-item img,
+.footer-gift-container img {
     filter: drop-shadow(2px 2px 7px rgb(0 0 0 / 1));
 }
