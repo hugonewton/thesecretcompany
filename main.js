@@ -14,3 +14,8 @@
     src = $video.attr('src');
     $video.attr('src', src + '?autoplay=1');
   });
+  $('#play-btn-track-3').on('click', function(e) {
+    var $video = $('#video-track-record-3');
+    src = $video.attr('src');
+    $video.attr('src', src + '?autoplay=1');
+  });
