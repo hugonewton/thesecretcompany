@@ -13,38 +13,44 @@
     border-radius: 3px;   
 }
 
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: calc(var(--btn-cta-rainbow-width) / -2);
-    left: calc(var(--btn-cta-rainbow-width) / -2);
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(7px);
-    width: calc(100% + var(--btn-cta-rainbow-width));
-    height: calc(100% + var(--btn-cta-rainbow-width));
-    animation: glowing 20s linear infinite;
-    opacity: .3;
-    transition: all 200ms ease-in-out;
-    border-radius: 3px;
+@media only screen and (min-width: 600px)  {
+
+    .glow-on-hover:before {
+        content: '';
+        background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+        position: absolute;
+        top: calc(var(--btn-cta-rainbow-width) / -2);
+        left: calc(var(--btn-cta-rainbow-width) / -2);
+        background-size: 400%;
+        z-index: -1;
+        filter: blur(7px);
+        width: calc(100% + var(--btn-cta-rainbow-width));
+        height: calc(100% + var(--btn-cta-rainbow-width));
+        animation: glowing 20s linear infinite;
+        opacity: .3;
+        transition: all 200ms ease-in-out;
+        border-radius: 3px;
+    }
+    
+    /* .glow-on-hover:active {
+        color: #000
+    } */
+    
+    /* .glow-on-hover:active:after {
+        background: transparent;
+    } */
+    
+    .glow-on-hover:hover:before {
+        opacity: 1;
+        width: calc(100% + var(--btn-cta-rainbow-width) * 2);
+        height: calc(100% + var(--btn-cta-rainbow-width) * 2);
+        top: calc(var(--btn-cta-rainbow-width) * -1);
+        left: calc(var(--btn-cta-rainbow-width) * -1);
+    }
+
 }
 
-/* .glow-on-hover:active {
-    color: #000
-} */
 
-/* .glow-on-hover:active:after {
-    background: transparent;
-} */
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-    width: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    height: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    top: calc(var(--btn-cta-rainbow-width) * -1);
-    left: calc(var(--btn-cta-rainbow-width) * -1);
-}
 
 .glow-on-hover:after {
     z-index: -1;
@@ -59,9 +65,14 @@
     transition: all 200ms ease-in-out;
 }
 
-.glow-on-hover:hover:after {
-    background: #000;
+@media only screen and (min-width: 600px)  {
+    
+    .glow-on-hover:hover:after {
+        background: #000;
+    }
 }
+
+
 
 @keyframes glowing {
     0% { background-position: 0 0; }
@@ -86,13 +97,19 @@
         border-radius: 1000px;
 }
 
-.glow-only:hover:before {
-    opacity: 1;
-    width: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    height: calc(100% + var(--btn-cta-rainbow-width) * 2);
-    top: calc(var(--btn-cta-rainbow-width) * -1);
-    left: calc(var(--btn-cta-rainbow-width) * -1);
+@media only screen and (min-width: 600px)  {
+    
+    .glow-only:hover:before {
+        opacity: 1;
+        width: calc(100% + var(--btn-cta-rainbow-width) * 2);
+        height: calc(100% + var(--btn-cta-rainbow-width) * 2);
+        top: calc(var(--btn-cta-rainbow-width) * -1);
+        left: calc(var(--btn-cta-rainbow-width) * -1);
+    }
+
 }
+
+
 
 .glow-only:after {
     z-index: -1;
@@ -187,3 +204,4 @@
 .footer-gift-container img {
     filter: drop-shadow(2px 2px 7px rgb(0 0 0 / 1));
 }
+
