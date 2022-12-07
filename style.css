@@ -207,3 +207,8 @@
     filter: drop-shadow(2px 2px 7px rgb(0 0 0 / 1));
 }
 
+
+.w-slider-dot {
+    width: .66em;
+    height: .66em;
+}
