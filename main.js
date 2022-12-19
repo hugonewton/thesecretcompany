@@ -32,13 +32,13 @@
   });
   var player2 = new Vimeo.Player(document.getElementById('video-track-record-2'));
   document.getElementById('play-btn-track-2').addEventListener('click', function() {
-    player.play();
+    player2.play();
   });
   var player3 = new Vimeo.Player(document.getElementById('video-track-record-3'));
   document.getElementById('play-btn-track-3').addEventListener('click', function() {
-    player.play();
+    player3.play();
   });
   var player4 = new Vimeo.Player(document.getElementById('video-track-record-4'));
   document.getElementById('play-btn-track-4').addEventListener('click', function() {
-    player.play();
+    player4.play();
   });
