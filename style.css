@@ -2,6 +2,10 @@
     --btn-cta-rainbow-width: 7px;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /* CTA GLOW ON HOVER */
 
 .glow-on-hover {
