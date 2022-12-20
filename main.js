@@ -44,12 +44,12 @@
   //   player4.play();
   // });
 
-  var iframe = document.querySelector('iframe.embedly-embed');
-  var player = new playerjs.Player(iframe);
+  // var iframe = document.querySelector('iframe.embedly-embed');
+  // var player = new playerjs.Player(iframe);
 
-  $('#play-btn-track-4').on('click', function() {
-      player.play();
-  });
+  // $('#play-btn-track-4').on('click', function() {
+  //     player.play();
+  // });
     
 
   // const el = document.querySelector("div.user-panel:not(.main) input[name='login']");
