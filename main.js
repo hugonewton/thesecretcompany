@@ -38,11 +38,11 @@
   document.getElementById('play-btn-track-3').addEventListener('click', function() {
     player3.play();
   });
-  
-  // var player4 = new Vimeo.Player(document.getElementById('video-track-record-4'));
-  // document.getElementById('play-btn-track-4').addEventListener('click', function() {
-  //   player4.play();
-  // });
+
+  var player4 = new Vimeo.Player(document.getElementById('video-track-record-4'));
+  document.getElementById('play-btn-track-4').addEventListener('click', function() {
+    player4.play();
+  });
 
 
 
