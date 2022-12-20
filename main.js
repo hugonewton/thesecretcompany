@@ -39,10 +39,14 @@
     player3.play();
   });
 
-  var player4 = new Vimeo.Player(document.getElementById('video-track-record-4'));
+  var player4 = new Vimeo.Player(document.querySelector('#video-track-record-4 iframe#player'));
   document.getElementById('play-btn-track-4').addEventListener('click', function() {
     player4.play();
   });
+
+
+  // const el = document.querySelector("div.user-panel:not(.main) input[name='login']");
+
 
 
 
