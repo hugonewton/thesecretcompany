@@ -44,12 +44,12 @@
   //   player4.play();
   // });
 
-  // var iframe = document.querySelector('iframe.embedly-embed');
-  // var player = new playerjs.Player(iframe);
+  var iframe4 = document.querySelector('#video-track-record-4 iframe.embedly-embed');
+  var player4 = new playerjs.Player(iframe4);
 
-  // $('#play-btn-track-4').on('click', function() {
-  //     player.play();
-  // });
+  $('#play-btn-track-4').on('click', function() {
+      player4.play();
+  });
     
 
   // const el = document.querySelector("div.user-panel:not(.main) input[name='login']");
