@@ -57,21 +57,21 @@
 
 
 
-  var video = document.querySelectorAll('video');
-  video.forEach(function(item) {
-      if (item.play() !== undefined) {
-          item.play().then(_ => {
-              // Autoplay started!
-              item.muted = true
-          }).catch(error => {
-              // Try muted autoplay
-              item.muted = true
-              item.play().then(_ => {
-                  // Muted autoplay started. Show unmute button
-              }).catch(error => {
-                  // Autoplay was prevented.
-                  // Show a "Play" button so that the user can start playback.
-              })
-          });
-      }
-  })
+  // var video = document.querySelectorAll('video');
+  // video.forEach(function(item) {
+  //     if (item.play() !== undefined) {
+  //         item.play().then(_ => {
+  //             // Autoplay started!
+  //             item.muted = true
+  //         }).catch(error => {
+  //             // Try muted autoplay
+  //             item.muted = true
+  //             item.play().then(_ => {
+  //                 // Muted autoplay started. Show unmute button
+  //             }).catch(error => {
+  //                 // Autoplay was prevented.
+  //                 // Show a "Play" button so that the user can start playback.
+  //             })
+  //         });
+  //     }
+  // })
