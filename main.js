@@ -26,23 +26,23 @@
   // });
 
 
-  // var player = new Vimeo.Player(document.getElementById('video-track-record-1'));
-  // document.getElementById('play-btn-track-1').addEventListener('click', function() {
-  //   player.play();
-  // });
-  // var player2 = new Vimeo.Player(document.getElementById('video-track-record-2'));
-  // document.getElementById('play-btn-track-2').addEventListener('click', function() {
-  //   player2.play();
-  // });
-  // var player3 = new Vimeo.Player(document.getElementById('video-track-record-3'));
-  // document.getElementById('play-btn-track-3').addEventListener('click', function() {
-  //   player3.play();
-  // });
+  var player = new Vimeo.Player(document.getElementById('video-track-record-1'));
+  document.getElementById('play-btn-track-1').addEventListener('click', function() {
+    player.play();
+  });
+  var player2 = new Vimeo.Player(document.getElementById('video-track-record-2'));
+  document.getElementById('play-btn-track-2').addEventListener('click', function() {
+    player2.play();
+  });
+  var player3 = new Vimeo.Player(document.getElementById('video-track-record-3'));
+  document.getElementById('play-btn-track-3').addEventListener('click', function() {
+    player3.play();
+  });
 
-  // var player4 = new Vimeo.Player(document.querySelector('#video-track-record-4 iframe'));
-  // document.getElementById('play-btn-track-4').addEventListener('click', function() {
-  //   player4.play();
-  // });
+  var player4 = new Vimeo.Player(document.querySelector('#video-track-record-4 iframe'));
+  document.getElementById('play-btn-track-4').addEventListener('click', function() {
+    player4.play();
+  });
 
   // var iframe4 = document.querySelector('#video-track-record-4 iframe.embedly-embed');
   // var player4 = new playerjs.Player(iframe4);
