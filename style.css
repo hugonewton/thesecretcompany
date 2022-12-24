@@ -218,3 +218,7 @@ body {
     width: .66em;
     height: .66em;
 }
+
+.stones-3d-video {
+    max-width: 100%;
+}
