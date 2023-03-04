@@ -222,3 +222,11 @@ body {
 .stones-3d-video {
     max-width: 100%;
 }
+
+
+/* LANGUAGE SWITCHER */
+
+.wg-selector2-text-lang2,
+.wg-selector2-text-lang1 {
+    color: #fff!important;
+}
