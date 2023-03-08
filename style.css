@@ -239,6 +239,7 @@ body {
     display: none!important;
 }
 
-.faq-collection-item .text-block-faq p:last-of-type {
+.faq-collection-item .text-block-faq p:last-of-type,
+.faq-collection-item .text-block-faq ul:last-of-type {
     margin: 0;
 }
