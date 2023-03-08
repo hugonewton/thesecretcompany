@@ -238,3 +238,7 @@ body {
 .faq-collection-item .text-block-faq::after {
     display: none!important;
 }
+
+.faq-collection-item .text-block-faq p {
+    margin: 0;
+}
