@@ -230,3 +230,11 @@ body {
 .wg-selector2-text-lang1 {
     color: #fff!important;
 }
+
+
+
+/* DELETE SPACE BEFORE AND AFTER FAQ ANSWER */
+.faq-collection-item .text-block-faq::before, 
+.faq-collection-item .text-block-faq::after {
+    display: none!important;
+}
