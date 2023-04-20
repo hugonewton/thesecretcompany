@@ -245,5 +245,5 @@ body {
 }
 
 .section-1-hero {
-    height: 100lvh;;
+    height: 100lvh!important;
 }
