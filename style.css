@@ -243,3 +243,7 @@ body {
 .faq-collection-item .text-block-faq ul:last-of-type {
     margin: 0;
 }
+
+.section-1-hero {
+    height: 100lvh;;
+}
