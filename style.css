@@ -244,6 +244,6 @@ body {
     margin: 0;
 }
 
-.section-1-hero {
+.section-1-hero.lvh {
     height: 100lvh!important;
 }
